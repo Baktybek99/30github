@@ -9,4 +9,5 @@ namespace _30git;
 public class Test
 {
     public string Value = "Test Class";
+    public string ValueType = "Test Class";
 }
