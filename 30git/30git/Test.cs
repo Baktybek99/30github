@@ -10,4 +10,5 @@ public class Test
 {
     public string Value = "Test Class";
     public string ValueType = "Test Class";
+    public string THirdValue = "Test Class";
 }
