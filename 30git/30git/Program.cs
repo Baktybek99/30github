@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 var asdf = "Hello Word";
-var hl1= "Hel" + "lo" + " " + "Wor" + "d";
+var hl1= "Hello"+ " " + "Word";
+
 
 
 var hello = "Hello ";
@@ -9,6 +10,4 @@ var helloWord = hello + word;
 
 
 
-
 Console.WriteLine(object.ReferenceEquals(asdf, hl1));
-Console.WriteLine(object.ReferenceEquals(asdf, helloWord));
