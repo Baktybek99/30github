@@ -11,3 +11,4 @@ var helloWord = hello + word;
 
 
 Console.WriteLine(object.ReferenceEquals(asdf, hl1));
+Console.WriteLine(object.ReferenceEquals(asdf, hl1));
