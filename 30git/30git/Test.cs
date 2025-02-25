@@ -13,3 +13,11 @@ public static  class Test
     public static string THirdValue = "Test Class";
     public static string asdfa = "Test Class";
 }
+
+public static class Test1
+{
+    public static string Value = "Test Class";
+    public static string ValueType = "Test Class";
+    public static string THirdValue = "Test Class";
+    public static string asdfa = "Test Class";
+}
