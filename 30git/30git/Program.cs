@@ -1,14 +1,35 @@
-﻿// See https://aka.ms/new-console-template for more information
-var asdf = "Hello Word";
-var hl1= "Hello"+ " " + "Word";
+﻿using _30git;
 
 
+char[][] value = new char[9][];
+//value[0] = new char[9] { '5', '3', '.', '.', '7', '.', '.', '.', '.' };
+//value[1] = new char[9] { '6', '.', '.', '1', '9', '5', '.', '.', '.' };
+//value[2] = new char[9] { '.', '9', '8', '.', '.', '.', '.', '6', '.' };
+//value[3] = new char[9] { '8', '.', '.', '.', '6', '.', '.', '.', '3' };
+//value[4] = new char[9] { '4', '.', '.', '8', '.', '3', '.', '.', '1' };
+//value[5] = new char[9] { '7', '.', '.', '.', '2', '.', '.', '.', '6' };
+//value[6] = new char[9] { '.', '6', '.', '.', '.', '.', '2', '8', '.' };
+//value[7] = new char[9] { '.', '.', '.', '4', '1', '9', '.', '.', '5' };
+//value[8] = new char[9] { '.', '.', '.', '.', '8', '.', '.', '7', '9' };
 
-var hello = "Hello ";
-var word = "Word";
-var helloWord = hello + word;
+//value[0] = new char[9] { '8','3','.','.','7','.','.','.','.' };
+//value[1] = new char[9] { '6','.','.','1','9','5','.','.','.' };
+//value[2] = new char[9] { '.','9','8','.','.','.','.','6','.' };
+//value[3] = new char[9] { '8','.','.','.','6','.','.','.','3' };
+//value[4] = new char[9] { '4','.','.','8','.','3','.','.','1' };
+//value[5] = new char[9] { '7','.','.','.','2','.','.','.','6' };
+//value[6] = new char[9] { '.','6','.','.','.','.','2','8','.' };
+//value[7] = new char[9] { '.','.','.','4','1','9','.','.','5' };
+//value[8] = new char[9] { '.','.','.','.','8','.','.','7','9' };
 
+value[0] = new char[9] { '.', '.', '5', '.', '.', '.', '.', '.', '6' };
+value[1] = new char[9] { '.', '.', '.', '.', '1', '4', '.', '.', '.' };
+value[2] = new char[9] { '.', '.', '.', '.', '.', '.', '.', '.', '.' };
+value[3] = new char[9] { '.', '.', '.', '.', '.', '9', '2', '.', '.' };
+value[4] = new char[9] { '5', '.', '.', '.', '.', '2', '.', '.', '.' };
+value[5] = new char[9] { '.', '.', '.', '.', '.', '.', '.', '3', '.' };
+value[6] = new char[9] { '.', '.', '.', '5', '4', '.', '.', '.', '.' };
+value[7] = new char[9] { '3', '.', '.', '.', '.', '.', '4', '2', '.' };
+value[8] = new char[9] { '.', '.', '.', '2', '7', '.', '6', '.', '.' };
 
-
-Console.WriteLine(object.ReferenceEquals(asdf, hl1));
-Console.WriteLine(object.ReferenceEquals(asdf, hl1));
+Console.WriteLine(LeetCodeTasks.IsValidSudoku(value));
