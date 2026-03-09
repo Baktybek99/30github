@@ -1,36 +1,65 @@
-﻿
+﻿using _30git.ThreadsCheck;
+using System.Net.Security;
 
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography;
-using System.Text;
 
-var value = new
+
+
+
+//string original = "Hello Word";
+//string copy = "Hello Word";
+//string original1 = "Hello" + " " + "Word";
+
+//var reverse = "droW olleH".Reverse().ToArray();
+
+//string test1 = new string("Hello Word");
+//string part1 = "Hello ";
+//string test2 = part1 + "Word";
+//string test3 = new string(reverse);
+
+
+//Console.WriteLine(object.ReferenceEquals(original, original1)); //1
+//Console.WriteLine(object.ReferenceEquals(original, copy)); //1
+//Console.WriteLine(object.ReferenceEquals(original, test1)); //0
+//Console.WriteLine(object.ReferenceEquals(original, test2)); //1
+//Console.WriteLine(object.ReferenceEquals(original, test3)); //1
+try
 {
-    provider_id = "RQKImu08QI",
-    menu_item_availability_updates = new List<Items>() 
-    { new Items() 
-    {
-        sku = "{\"id\":\"1010442\",\"isCombo\":true,\"isSplitLines\":false}",
-        transition_to = "out_of_stock",
-        transition_timestamp = 1741159432
-    } },
-};
 
-var adf = Utf8Json.JsonSerializer.ToJsonString(value, Utf8Json.Resolvers.StandardResolver.ExcludeNullCamelCase);
-var bitesofRequest = Encoding.UTF8.GetBytes(adf);
-var bitesofKey = Encoding.UTF8.GetBytes("");
-
-var sig = adf.ToBytes().HmacSha256Base64(Bolt.SecretKey.ToBytes());
-
-
-
-
-
-
-
-class Items
+}ff
+catch (Exception ex)
 {
-    public string sku { get; set; }
-    public string transition_to { get; set; }
-    public long transition_timestamp { get; set; }
+
+	throw;
+	throw ex;
+	throw new Exception(ex);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//new Task(() =>
+//{
+//    Console.WriteLine("Start");
+//    Console.WriteLine("Hello word");
+//    Console.WriteLine("Finished");
+//}).Start();
+
+//Thread.Sleep(1000);
+//new Thread(() =>
+//{
+//    Console.WriteLine("Start");
+//    Console.WriteLine("Hello word");
+//    Console.WriteLine("Finished");
+//}).Start();
+
+
